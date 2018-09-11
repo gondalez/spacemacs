@@ -53,6 +53,7 @@
         (visual-line-mode :location built-in)
         (whitespace :location built-in)
         (winner :location built-in)
+        multi-line
         ))
 
 ;; Initialization of packages
@@ -259,6 +260,10 @@
         (add-hook 'text-mode-hook 'linum-mode))
       (when dotspacemacs-line-numbers
         (global-linum-mode)))))
+
+(defun spacemacs-base/init-multi-line()
+  :init
+  )
 
 (defun spacemacs-base/init-occur-mode ()
   (evilified-state-evilify-map occur-mode-map

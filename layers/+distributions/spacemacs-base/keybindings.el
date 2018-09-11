@@ -217,6 +217,7 @@
   "jo" 'open-line
   "j=" 'spacemacs/indent-region-or-buffer
   "jS" 'spacemacs/split-and-new-line
+  "jm" 'multi-line
   "jk" 'spacemacs/evil-goto-next-line-and-indent)
 
 ;; navigation/jumping ---------------------------------------------------------
